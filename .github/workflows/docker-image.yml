@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/teste-azfunctions-dotnet8
+  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/site-interesses-dotnet8-azureeventhubs
   DIR_WEBAPP: './SiteQuestaoEventHub'
   
 jobs:
